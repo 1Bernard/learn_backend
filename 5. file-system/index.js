@@ -17,4 +17,4 @@ const readContentFromFile = fs.readFileSync(filePath, 'utf-8');
 console.log("File content:", readContentFromFile);
 
 fs.appendFileSync(filePath, '\nHello from node js again');
-console.log('File updated successfully');
+console.log('new file content added successfully');
